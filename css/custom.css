@@ -1,0 +1,142 @@
+/* =========================
+   VARIABLES (TEMA GLOBAL)
+========================= */
+:root {
+  --primary-color: #6f42c1;
+  --secondary-color: #9c6ade;
+  --dark-color: #2d0247;
+  --light-color: #f8f9fa;
+  --text-color: #212529;
+}
+
+/* =========================
+   BASE
+========================= */
+body {
+  background-color: var(--light-color);
+  color: var(--text-color);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+.navbar {
+  background: #2d0247 !important;
+  position: sticky;
+  top: 0;
+  z-index: 1050;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: white !important;
+}
+
+.nav-link {
+  color: #ddd !important;
+  transition: 0.3s;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--secondary-color) !important;
+}
+
+/* =========================
+   BOTONES
+========================= */
+.btn-primary {
+  background-color: var(--primary-color);
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary-color);
+}
+
+.btn-outline-primary {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+/* =========================
+   CARDS (PRODUCTOS)
+========================= */
+.card {
+  border: none;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(111, 66, 193, 0.2);
+}
+
+.card-title {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+/* =========================
+   TABLAS (ADMIN / HISTORIAL)
+========================= */
+.table thead {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.table tbody tr:hover {
+  background-color: #f1ebff;
+}
+
+/* =========================
+   BADGES (ESTADOS)
+========================= */
+.badge.bg-success {
+  background-color: #28a745 !important;
+}
+
+.badge.bg-warning {
+  background-color: #ffc107 !important;
+  color: #000;
+}
+
+.badge.bg-danger {
+  background-color: #dc3545 !important;
+}
+
+/* =========================
+   FILTROS (SIDEBAR)
+========================= */
+.filter-box {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* =========================
+   FOOTER
+========================= */
+footer {
+  background: var(--dark-color);
+  color: #d6c7f7;
+}
+
+/* =========================
+   UTILIDADES
+========================= */
+.shadow-soft {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.rounded-custom {
+  border-radius: 12px;
+}
