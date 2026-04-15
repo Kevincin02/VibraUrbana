@@ -140,3 +140,106 @@ footer {
 .rounded-custom {
   border-radius: 12px;
 }
+
+/* 🔹 SIDEBAR - texto más visible */
+.sb-sidenav-dark .nav-link {
+    color: rgba(255, 255, 255, 0.85); /* blanco suave */
+    transition: all 0.2s ease;
+}
+
+/* Hover */
+.sb-sidenav-dark .nav-link:hover {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 6px;
+}
+
+/* Activo */
+.sb-sidenav-dark .nav-link.active {
+    color: #ffffff;
+    background-color: rgba(111, 66, 193, 0.6); /* morado suave */
+    border-radius: 6px;
+}
+
+/* Títulos (Barra Principal, etc.) */
+.sb-sidenav-dark .sb-sidenav-menu-heading {
+    color: rgba(255, 255, 255, 0.8); /* más visible */
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+/* Footer */
+.sb-sidenav-dark .sb-sidenav-footer {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* 🔹 HEADINGS (Barra Principal, etc.) */
+.sb-sidenav-dark .sb-sidenav-menu .sb-sidenav-menu-heading {
+    color: #ffffff !important;
+    opacity: 0.85;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+/* 🔹 LINKS */
+.sb-sidenav-dark .sb-sidenav-menu .nav-link {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* Hover */
+.sb-sidenav-dark .sb-sidenav-menu .nav-link:hover {
+    color: #ffffff !important;
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Activo */
+.sb-sidenav-dark .sb-sidenav-menu .nav-link.active {
+    color: #ffffff !important;
+    background-color: rgba(111, 66, 193, 0.6);
+}
+
+/* =========================
+   ADMIN - CAMBIO A MORADO
+========================= */
+
+/* Cards (los cuadros azules) */
+.bg-primary {
+    background-color: #6f42c1 !important;
+}
+
+/* Botones */
+.btn-primary {
+    background-color: #6f42c1 !important;
+    border-color: #6f42c1 !important;
+}
+
+.btn-primary:hover {
+    background-color: #9c6ade !important;
+    border-color: #9c6ade !important;
+}
+
+/* Tabla encabezado */
+.table thead {
+    background-color: #6f42c1 !important;
+    color: white;
+}
+
+/* Navbar botón search */
+#btnNavbarSearch {
+    background-color: #6f42c1 !important;
+    border-color: #6f42c1 !important;
+}
+
+/* Sidebar activo */
+.sb-sidenav-dark .nav-link.active {
+    background-color: rgba(111, 66, 193, 0.7) !important;
+}
+
+/* Hover sidebar */
+.sb-sidenav-dark .nav-link:hover {
+    background-color: rgba(156, 106, 222, 0.2) !important;
+}
